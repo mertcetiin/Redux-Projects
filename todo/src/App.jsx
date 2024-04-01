@@ -1,11 +1,14 @@
 import './App.css'
+import ListForm from './components/ListForm';
+import TodoForm from './components/TodoForm';
 
 function App() {
 
 
   return (
     <div>
-      Hello !!
+      <TodoForm />
+      <ListForm />
     </div>
   )
 }
